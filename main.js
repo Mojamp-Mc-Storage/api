@@ -18,7 +18,3 @@ exports.handler = async (event, context) => {
       }
     }
 };
-
-export default async (req, context) => {
-    return new Response("Hello, world!");
-};
